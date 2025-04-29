@@ -28,9 +28,9 @@ function map(array) {
   return array.map(callbackMap);
 }
 
-map(employees);
-
 const ul = document.querySelector('ul');
 
 ul.innerHTML = '';
 sortedEmployees.forEach((el) => ul.append(el));
+
+map(employees);
